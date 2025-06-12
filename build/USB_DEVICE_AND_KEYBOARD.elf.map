@@ -1438,9 +1438,9 @@ Discarded input sections
  .comment       0x00000000       0x46 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/vendor/vendor_host.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/vendor/vendor_host.c.obj
- .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
- .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
- .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
+ .text          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
+ .data          0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
+ .bss           0x00000000        0x0 C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
  .data          0x00000000        0x0 c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libc.a(libc_a-calloc.o)
@@ -1679,7 +1679,7 @@ LOAD c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
+ .boot2         0x10000000      0x100 C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3298,7 +3298,7 @@ LOAD CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/li
 LOAD CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/hid/hid_host.c.obj
 LOAD CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/msc/msc_host.c.obj
 LOAD CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/vendor/vendor_host.c.obj
-LOAD C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
+LOAD C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
 LOAD c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3430,7 +3430,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000090c       0x2c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/1.5.1/lib/tinyusb/src/class/hid/hid_host.c.obj
  .ARM.attributes
-                0x00000938       0x22 C:\Users\ASUS\AppData\Local\Temp\cc04RHta.o
+                0x00000938       0x22 C:\Users\ASUS\AppData\Local\Temp\ccUMCno5.o
  .ARM.attributes
                 0x0000095a       0x1e c:/users/asus/.pico-sdk/toolchain/12_3_rel1/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
