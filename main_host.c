@@ -204,6 +204,17 @@ void tuh_hid_report_received_cb(uint8_t dev_addr, uint8_t instance, uint8_t cons
   (void) len;
   uint8_t const itf_protocol = tuh_hid_interface_protocol(dev_addr, instance);
 
+  // Print raw report bytes for debugging
+  /*char raw_report_buf[len * 3 + 1]; // Each byte takes 2 hex chars + space, plus null terminator
+  int offset = 0;
+  for (uint16_t i = 0; i < len; i++) {
+    offset += sprintf(raw_report_buf + offset, "%02X ", report[i]);
+  }
+  sprintf(raw_report_buf + offset, "\r\n");
+  tud_cdc_write("Raw HID report: ", 16);
+  tud_cdc_write(raw_report_buf, strlen(raw_report_buf));
+  tud_cdc_write_flush();*/
+
   switch(itf_protocol)
   {
     case HID_ITF_PROTOCOL_KEYBOARD:

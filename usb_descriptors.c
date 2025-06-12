@@ -96,8 +96,12 @@ enum
 
 uint8_t const desc_hid_report[] =
 {
-  TUD_HID_REPORT_DESC_KEYBOARD( HID_REPORT_ID(REPORT_ID_KEYBOARD         )),
+  // Add keyboard report descriptor with its ID
+  TUD_HID_REPORT_DESC_KEYBOARD( HID_REPORT_ID(REPORT_ID_KEYBOARD) ),
+  // Add mouse report descriptor with its unique ID
+  TUD_HID_REPORT_DESC_MOUSE   ( HID_REPORT_ID(REPORT_ID_MOUSE)    )
 };
+
 
 // full speed configuration
 uint8_t const desc_fs_configuration[] =
