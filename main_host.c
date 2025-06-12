@@ -146,7 +146,7 @@ static void process_kbd_report(uint8_t dev_addr, hid_keyboard_report_t const *re
   static hid_keyboard_report_t prev_report = { 0, 0, {0} }; // previous report to check key released
   bool flush = false;
 
-  tud_hid_keyboard_report(REPORT_ID_KEYBOARD, 0, report);
+  tud_hid_keyboard_report(REPORT_ID_KEYBOARD, report->modifier, report->keycode);
   
   for(uint8_t i=0; i<6; i++)
   {
@@ -182,14 +182,17 @@ static void process_kbd_report(uint8_t dev_addr, hid_keyboard_report_t const *re
 // send mouse report to usb device CDC
 static void process_mouse_report(uint8_t dev_addr, hid_mouse_report_t const * report)
 {
+  tud_hid_mouse_report(REPORT_ID_MOUSE, report->buttons, report->x, report->y, report->wheel, 0);
   //------------- button state  -------------//
   //uint8_t button_changed_mask = report->buttons ^ prev_report.buttons;
   char l = report->buttons & MOUSE_BUTTON_LEFT   ? 'L' : '-';
   char m = report->buttons & MOUSE_BUTTON_MIDDLE ? 'M' : '-';
   char r = report->buttons & MOUSE_BUTTON_RIGHT  ? 'R' : '-';
+  char f = report->buttons & MOUSE_BUTTON_FORWARD  ? 'F' : '-';
+  char b = report->buttons & MOUSE_BUTTON_BACKWARD  ? 'B' : '-';
 
   char tempbuf[32];
-  int count = sprintf(tempbuf, "[%u] %c%c%c %d %d %d\r\n", dev_addr, l, m, r, report->x, report->y, report->wheel);
+  int count = sprintf(tempbuf, "[%u] %c%c%c%c%c %d %d %d\r\n", dev_addr, l, m, r, f, b, report->x, report->y, report->wheel);
 
   tud_cdc_write(tempbuf, count);
   tud_cdc_write_flush();
