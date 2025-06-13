@@ -146,7 +146,7 @@ static void process_kbd_report(uint8_t dev_addr, hid_keyboard_report_t const *re
   static hid_keyboard_report_t prev_report = { 0, 0, {0} }; // previous report to check key released
   bool flush = false;
 
-  tud_hid_keyboard_report(REPORT_ID_KEYBOARD, report->modifier, report->keycode);
+  tud_hid_keyboard_report(REPORT_ID_KEYBOARD, report->modifier, (uint8_t*) report->keycode);
   
   for(uint8_t i=0; i<6; i++)
   {
@@ -234,4 +234,3 @@ void tuh_hid_report_received_cb(uint8_t dev_addr, uint8_t instance, uint8_t cons
     tud_cdc_write_str("Error: cannot request report\r\n");
   }
 }
-
