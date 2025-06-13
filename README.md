@@ -4,12 +4,12 @@ Either you can take USB_DEVICE_AND_KEYBOARD.uf2 from the build folder and paste 
 
 ## Versions
 
-|Pico SDK|1.5.1|
+|Pico SDK|2.1.1|
 |-|-|
-|ToolChain|12_3_Rel1|
-|PicoTool|2.0.0|
-|Cmake|Upto 3.31.5|
-|Ninja|Upto 1.12.1|
+|ToolChain|14_2_Rel1|
+|PicoTool|2.1.1|
+|Cmake|3.31.5|
+|Ninja|1.12.1|
 
 ## GPIO
 

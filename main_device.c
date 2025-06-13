@@ -40,7 +40,7 @@
 #include "pio_usb.h"
 #include "tusb.h"
 #include "usb_descriptors.h"
-
+#include "hardware/clocks.h"
 
 
 /*------------- MAIN -------------*/
