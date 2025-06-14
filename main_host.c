@@ -54,21 +54,26 @@ static uint8_t const keycode2ascii[128][2] =  { HID_KEYCODE_TO_ASCII };
 
 /*------------- MAIN -------------*/
 
-#define PIO_USB_CONFIG                                                 \
-  {                                                                            \
-    PIO_USB_DP_PIN_DEFAULT, PIO_USB_TX_DEFAULT, PIO_SM_USB_TX_DEFAULT,         \
-        PIO_USB_DMA_TX_DEFAULT, PIO_USB_RX_DEFAULT, PIO_SM_USB_RX_DEFAULT,     \
-        PIO_SM_USB_EOP_DEFAULT, NULL, PIO_USB_DEBUG_PIN_NONE,                  \
-        PIO_USB_DEBUG_PIN_NONE                                                 \
-  }
-
 // core1: handle host events
 void core1_main() {
   sleep_ms(10);
 
   // Use tuh_configure() to pass pio configuration to the host stack
   // Note: tuh_configure() must be called before
-  pio_usb_configuration_t pio_cfg = PIO_USB_CONFIG;
+  pio_usb_configuration_t pio_cfg = {
+    .pin_dp = PIO_USB_DP_PIN_DEFAULT,
+    .pio_tx_num = PIO_USB_TX_DEFAULT,
+    .sm_tx = PIO_SM_USB_TX_DEFAULT,
+    .tx_ch = PIO_USB_DMA_TX_DEFAULT,
+    .pio_rx_num = PIO_USB_RX_DEFAULT,
+    .sm_rx = PIO_SM_USB_RX_DEFAULT,
+    .sm_eop = PIO_SM_USB_EOP_DEFAULT,
+    .alarm_pool = NULL, // Set to your alarm pool if you have one, otherwise NULL
+    .debug_pin_rx = PIO_USB_DEBUG_PIN_NONE,
+    .debug_pin_eop = PIO_USB_DEBUG_PIN_NONE,
+    .skip_alarm_pool = false, // Add this line, typically false if using alarm_pool
+    .pinout = PIO_USB_PINOUT_DPDM // Add this line, as per newer pio_usb.h
+};
   tuh_configure(1, TUH_CFGID_RPI_PIO_USB_CONFIGURATION, &pio_cfg);
 
   // To run USB SOF interrupt in core1, init host stack for pio_usb (roothub
@@ -182,7 +187,25 @@ static void process_kbd_report(uint8_t dev_addr, hid_keyboard_report_t const *re
 // send mouse report to usb device CDC
 static void process_mouse_report(uint8_t dev_addr, hid_mouse_report_t const * report)
 {
-  tud_hid_mouse_report(REPORT_ID_MOUSE, report->buttons, report->x, report->y, report->wheel, 0);
+  hid_mouse_report_t w_report; // Declare w_report as a full struct
+  memcpy(&w_report, report, sizeof(hid_mouse_report_t)); // Copy the entire const report into w_report
+
+  //w_report.buttons |= MOUSE_BUTTON_LEFT; // Sets the left mouse button bit
+  //w_report.buttons &= ~MOUSE_BUTTON_LEFT; // Clear the left mouse button bit
+
+  //Unsuccessful AutoClicker
+  /*uint32_t cps = 9;
+  if (report->buttons & MOUSE_BUTTON_LEFT){
+    w_report.buttons |= MOUSE_BUTTON_LEFT;
+    tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, 0, 0, 0, 0);
+    sleep_ms(50);
+    w_report.buttons &= ~MOUSE_BUTTON_LEFT;
+    tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, 0, 0, 0, 0);
+    sleep_ms((1000/cps)-50);
+  }*/
+
+  tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, w_report.x, w_report.y, w_report.wheel, 0);
+
   //------------- button state  -------------//
   //uint8_t button_changed_mask = report->buttons ^ prev_report.buttons;
   char l = report->buttons & MOUSE_BUTTON_LEFT   ? 'L' : '-';

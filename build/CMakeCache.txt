@@ -327,6 +327,9 @@ PICO_STDIO_USB:BOOL=OFF
 //No help, variable specified on the command line.
 Python3_EXECUTABLE:UNINITIALIZED=c:/Users/ASUS/AppData/Local/Programs/Python/Python312/python.exe
 
+//RTOS
+RTOS:STRING=noos
+
 //Value Computed by CMake
 USB_DEVICE_AND_KEYBOARD_BINARY_DIR:STATIC=C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build
 
