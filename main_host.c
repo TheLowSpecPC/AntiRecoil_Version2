@@ -187,24 +187,18 @@ static void process_kbd_report(uint8_t dev_addr, hid_keyboard_report_t const *re
 // send mouse report to usb device CDC
 static void process_mouse_report(uint8_t dev_addr, hid_mouse_report_t const * report)
 {
-  hid_mouse_report_t w_report; // Declare w_report as a full struct
-  memcpy(&w_report, report, sizeof(hid_mouse_report_t)); // Copy the entire const report into w_report
+  // Initialize Left and Right pins
+  const uint leftpin = 16;
+  const uint rightpin = 17;
+  gpio_init(leftpin);
+  gpio_init(rightpin);
+  gpio_set_dir(leftpin, GPIO_OUT);
+  gpio_set_dir(rightpin, GPIO_OUT);
 
-  //w_report.buttons |= MOUSE_BUTTON_LEFT; // Sets the left mouse button bit
-  //w_report.buttons &= ~MOUSE_BUTTON_LEFT; // Clear the left mouse button bit
+  tud_hid_mouse_report(REPORT_ID_MOUSE, report->buttons, report->x, report->y, report->wheel, 0);
 
-  //Unsuccessful AutoClicker
-  /*uint32_t cps = 9;
-  if (report->buttons & MOUSE_BUTTON_LEFT){
-    w_report.buttons |= MOUSE_BUTTON_LEFT;
-    tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, 0, 0, 0, 0);
-    sleep_ms(50);
-    w_report.buttons &= ~MOUSE_BUTTON_LEFT;
-    tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, 0, 0, 0, 0);
-    sleep_ms((1000/cps)-50);
-  }*/
-
-  tud_hid_mouse_report(REPORT_ID_MOUSE, w_report.buttons, w_report.x, w_report.y, w_report.wheel, 0);
+  gpio_put(leftpin, !(report->buttons & MOUSE_BUTTON_LEFT));
+  gpio_put(rightpin, !(report->buttons & MOUSE_BUTTON_RIGHT));
 
   //------------- button state  -------------//
   //uint8_t button_changed_mask = report->buttons ^ prev_report.buttons;

@@ -85,11 +85,3 @@ void tud_cdc_rx_cb(uint8_t itf)
   // TODO control LED on keyboard of host stack
   (void) count;
 }
-
-
-
-
-
-
-
-
