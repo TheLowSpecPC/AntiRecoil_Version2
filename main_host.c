@@ -189,16 +189,28 @@ static void process_mouse_report(uint8_t dev_addr, hid_mouse_report_t const * re
 {
   // Initialize Left and Right pins
   const uint leftpin = 16;
-  const uint rightpin = 17;
   gpio_init(leftpin);
-  gpio_init(rightpin);
   gpio_set_dir(leftpin, GPIO_OUT);
+  const uint rightpin = 17;
+  gpio_init(rightpin);
   gpio_set_dir(rightpin, GPIO_OUT);
+  const uint forwardpin = 18;
+  gpio_init(forwardpin);
+  gpio_set_dir(forwardpin, GPIO_OUT);
+  const uint backwardpin = 19;
+  gpio_init(backwardpin);
+  gpio_set_dir(backwardpin, GPIO_OUT);
+  const uint middlepin = 20;
+  gpio_init(middlepin);
+  gpio_set_dir(middlepin, GPIO_OUT);
 
   tud_hid_mouse_report(REPORT_ID_MOUSE, report->buttons, report->x, report->y, report->wheel, 0);
 
   gpio_put(leftpin, !(report->buttons & MOUSE_BUTTON_LEFT));
   gpio_put(rightpin, !(report->buttons & MOUSE_BUTTON_RIGHT));
+  gpio_put(forwardpin, !(report->buttons & MOUSE_BUTTON_FORWARD));
+  gpio_put(backwardpin, !(report->buttons & MOUSE_BUTTON_BACKWARD));
+  gpio_put(middlepin, !(report->buttons & MOUSE_BUTTON_MIDDLE));
 
   //------------- button state  -------------//
   //uint8_t button_changed_mask = report->buttons ^ prev_report.buttons;
