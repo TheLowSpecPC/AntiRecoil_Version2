@@ -4,7 +4,7 @@ Either you can take USB_DEVICE_AND_KEYBOARD.uf2 from the build folder and paste 
 
 ## Versions
 
-|Pico SDK|2.1.1|
+|Pico SDK|2.2.0|
 |-|-|
 |ToolChain|14_2_Rel1|
 |PicoTool|2.1.1|

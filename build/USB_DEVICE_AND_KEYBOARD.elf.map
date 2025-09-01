@@ -4135,7 +4135,7 @@ LOAD C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0     0x4160 load address 0x1000aeb4
+.data           0x200000c0     0x4150 load address 0x1000aeb4
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -4168,408 +4168,404 @@ LOAD C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14
  .time_critical.pio_usb_bus_usb_transfer
                 0x20001af8       0x90 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
                 0x20001af8                pio_usb_bus_usb_transfer
- .time_critical.pio_usb_bus_send_handshake
-                0x20001b88      0x17c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20001b88                pio_usb_bus_send_handshake
  .time_critical.pio_usb_bus_send_token
-                0x20001d04       0xc8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20001d04                pio_usb_bus_send_token
+                0x20001b88       0xc8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20001b88                pio_usb_bus_send_token
  .time_critical.pio_usb_bus_prepare_receive
-                0x20001dcc       0x58 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20001dcc                pio_usb_bus_prepare_receive
+                0x20001c50       0x58 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20001c50                pio_usb_bus_prepare_receive
  .time_critical.pio_usb_bus_wait_handshake
-                0x20001e24       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20001e24                pio_usb_bus_wait_handshake
+                0x20001ca8       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20001ca8                pio_usb_bus_wait_handshake
  .time_critical.pio_usb_bus_receive_packet_and_handshake
-                0x20001f00      0x158 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20001f00                pio_usb_bus_receive_packet_and_handshake
+                0x20001d84      0x2c0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20001d84                pio_usb_bus_receive_packet_and_handshake
  .time_critical.pio_usb_ll_configure_endpoint
-                0x20002058       0x20 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20002058                pio_usb_ll_configure_endpoint
+                0x20002044       0x20 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20002044                pio_usb_ll_configure_endpoint
  .time_critical.pio_usb_ll_transfer_start
-                0x20002078       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20002078                pio_usb_ll_transfer_start
+                0x20002064       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20002064                pio_usb_ll_transfer_start
  .time_critical.pio_usb_ll_transfer_complete
-                0x2000210c       0x60 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x2000210c                pio_usb_ll_transfer_complete
+                0x200020f8       0x60 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x200020f8                pio_usb_ll_transfer_complete
  .time_critical.pio_usb_ll_transfer_continue
-                0x2000216c       0x9c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x2000216c                pio_usb_ll_transfer_continue
+                0x20002158       0x9c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20002158                pio_usb_ll_transfer_continue
  .time_critical.tx_program
-                0x20002208       0x4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- *fill*         0x20002256        0x2 
+                0x200021f4       0x4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ *fill*         0x20002242        0x2 
  .time_critical.usb_tx_configure_pins
-                0x20002258       0x84 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002244       0x84 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.connection_check
-                0x200022dc       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200022c8       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.restore_fs_bus
-                0x200023b8       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200023a4       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.configure_tx_program
-                0x20002478       0x34 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002464       0x34 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.usb_out_transaction
-                0x200024ac       0xd4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002498       0xd4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.usb_in_transaction
-                0x20002580       0xb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x2000256c       0xb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.usb_setup_transaction
-                0x20002638       0x90 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002624       0x90 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.override_pio_program
-                0x200026c8       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200026b4       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.configure_fullspeed_host
-                0x200026f0      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200026dc      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.configure_lowspeed_host
-                0x200027f8      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200027e4      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.configure_root_port
-                0x20002900       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x200028ec       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.pio_usb_host_frame
-                0x20002914      0x2bc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
-                0x20002914                pio_usb_host_frame
+                0x20002900      0x2bc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002900                pio_usb_host_frame
  .time_critical.sof_timer
-                0x20002bd0        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20002bbc        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .time_critical.tx_program
-                0x20002bdc       0x4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- *fill*         0x20002c2a        0x2 
+                0x20002bc8       0x4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ *fill*         0x20002c16        0x2 
  .time_critical.calc_usb_crc5
-                0x20002c2c       0x2c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
-                0x20002c2c                calc_usb_crc5
+                0x20002c18       0x2c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x20002c18                calc_usb_crc5
  .time_critical.crc_tbl
-                0x20002c58      0x200 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
-                0x20002c58                crc16_tbl
+                0x20002c44      0x200 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x20002c44                crc16_tbl
  .time_critical.crc5_tbl
-                0x20002e58       0x20 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
-                0x20002e58                crc5_tbl
+                0x20002e44       0x20 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x20002e44                crc5_tbl
  .time_critical.reset_non_control_endpoints
-                0x20002e78       0x68 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x20002e64       0x68 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.hw_handle_buff_status
-                0x20002ee0       0xa0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x20002ecc       0xa0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.dcd_rp2040_irq
-                0x20002f80      0x548 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x20002f6c      0x548 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .time_critical.prepare_ep_buffer
-                0x200034c8       0xc8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x200034b4       0xc8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.sync_ep_buffer
-                0x20003590       0x9c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x2000357c       0x9c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical._hw_endpoint_xfer_sync
-                0x2000362c       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x20003618       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.e15_is_bulkin_ep
-                0x20003654       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x20003640       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.e15_is_critical_frame_period
-                0x2000367c       0x34 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x20003668       0x34 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .time_critical.hw_endpoint_reset_transfer
-                0x200036b0        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x200036b0                hw_endpoint_reset_transfer
+                0x2000369c        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x2000369c                hw_endpoint_reset_transfer
  .time_critical._hw_endpoint_buffer_control_update32
-                0x200036bc       0x50 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x200036bc                _hw_endpoint_buffer_control_update32
+                0x200036a8       0x50 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x200036a8                _hw_endpoint_buffer_control_update32
  .time_critical.hw_endpoint_start_next_buffer
-                0x2000370c       0x68 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x2000370c                hw_endpoint_start_next_buffer
+                0x200036f8       0x68 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x200036f8                hw_endpoint_start_next_buffer
  .time_critical.hw_endpoint_xfer_continue
-                0x20003774       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x20003774                hw_endpoint_xfer_continue
+                0x20003760       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x20003760                hw_endpoint_xfer_continue
  .time_critical.tinyusb
-                0x200037b4      0x1e4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
-                0x200037b4                dcd_event_handler
+                0x200037a0      0x1e4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x200037a0                dcd_event_handler
  .time_critical.tinyusb
-                0x20003998       0x78 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
-                0x20003998                hcd_event_handler
+                0x20003984       0x78 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20003984                hcd_event_handler
  *(.text*)
- .text          0x20003a10        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
-                0x20003a10                __aeabi_idiv0
-                0x20003a10                __aeabi_ldiv0
- *fill*         0x20003a14        0x4 
- .text.__stub   0x20003a18      0x1b0 linker stubs
-                0x20003bc8                        . = ALIGN (0x4)
+ .text          0x200039fc        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x200039fc                __aeabi_idiv0
+                0x200039fc                __aeabi_ldiv0
+ .text.__stub   0x20003a00      0x1b0 linker stubs
+                0x20003bb0                        . = ALIGN (0x4)
  *(.rodata*)
-                0x20003bc8                        . = ALIGN (0x4)
+                0x20003bb0                        . = ALIGN (0x4)
  *(.data*)
  .data.string_desc_arr
-                0x20003bc8       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
-                0x20003bc8                string_desc_arr
+                0x20003bb0       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
+                0x20003bb0                string_desc_arr
  .data.pio_host_cfg
-                0x20003bdc       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c.obj
+                0x20003bc4       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c.obj
  .data.striped_spin_lock_num
-                0x20003bec        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x20003bed        0x3 
- .data          0x20003bf0       0x48 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-                0x20003bf0                irq_handler_chain_slots
-                0x20003c20                irq_handler_chain_first_slot
-                0x20003c2a                irq_handler_chain_remove_tail
+                0x20003bd4        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x20003bd5        0x3 
+ .data          0x20003bd8       0x48 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+                0x20003bd8                irq_handler_chain_slots
+                0x20003c08                irq_handler_chain_first_slot
+                0x20003c12                irq_handler_chain_remove_tail
  .data.default_alarm_pool
-                0x20003c38       0x18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
- *fill*         0x20003c50        0x0 
+                0x20003c20       0x18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+ *fill*         0x20003c38        0x8 
  .data.aeabi_bits_funcs
-                0x20003c50       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-                0x20003c50                aeabi_bits_funcs
-                0x20003c60                aeabi_bits_funcs_end
+                0x20003c40       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x20003c40                aeabi_bits_funcs
+                0x20003c50                aeabi_bits_funcs_end
  .data.aeabi_mem_funcs
-                0x20003c60       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x20003c60                aeabi_mem_funcs
-                0x20003c70                aeabi_mem_funcs_end
+                0x20003c50       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x20003c50                aeabi_mem_funcs
+                0x20003c60                aeabi_mem_funcs_end
  .data.sof_packet
-                0x20003c70        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20003c60        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .data._usbd_qdef
-                0x20003c74       0x1c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
-                0x20003c74                _usbd_qdef
+                0x20003c64       0x1c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20003c64                _usbd_qdef
  .data._usbd_rhport
-                0x20003c90        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x20003c91        0x3 
+                0x20003c80        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x20003c81        0x3 
  .data._usbh_qdef
-                0x20003c94       0x1c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
-                0x20003c94                _usbh_qdef
+                0x20003c84       0x1c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20003c84                _usbh_qdef
  .data._usbh_controller
-                0x20003cb0        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- *fill*         0x20003cb1        0x3 
+                0x20003ca0        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ *fill*         0x20003ca1        0x3 
  .data.__malloc_sbrk_base
-                0x20003cb4        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x20003cb4                __malloc_sbrk_base
+                0x20003ca4        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x20003ca4                __malloc_sbrk_base
  .data.__malloc_trim_threshold
-                0x20003cb8        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x20003cb8                __malloc_trim_threshold
- *fill*         0x20003cbc        0x4 
+                0x20003ca8        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x20003ca8                __malloc_trim_threshold
+ *fill*         0x20003cac        0x4 
  .data.__malloc_av_
-                0x20003cc0      0x408 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x20003cc0                __malloc_av_
+                0x20003cb0      0x408 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x20003cb0                __malloc_av_
  .data._impure_ptr
-                0x200040c8        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
-                0x200040c8                _impure_ptr
- *fill*         0x200040cc        0x4 
+                0x200040b8        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+                0x200040b8                _impure_ptr
+ *fill*         0x200040bc        0x4 
  .data._impure_data
-                0x200040d0      0x140 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
-                0x200040d0                _impure_data
-                0x20004210                        . = ALIGN (0x4)
+                0x200040c0      0x140 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-impure.o)
+                0x200040c0                _impure_data
+                0x20004200                        . = ALIGN (0x4)
  *(.after_data.*)
-                0x20004210                        . = ALIGN (0x4)
-                0x20004210                        PROVIDE (__mutex_array_start = .)
+                0x20004200                        . = ALIGN (0x4)
+                0x20004200                        PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x20004210        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
- .mutex_array   0x20004218        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
-                0x20004220                        PROVIDE (__mutex_array_end = .)
-                0x20004220                        . = ALIGN (0x4)
+ .mutex_array   0x20004200        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
+ .mutex_array   0x20004208        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x20004210                        PROVIDE (__mutex_array_end = .)
+                0x20004210                        . = ALIGN (0x4)
  *(.jcr)
-                0x20004220                        . = ALIGN (0x4)
+                0x20004210                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x20004220        0x0 load address 0x1000f014
+                0x20004210        0x0 load address 0x1000f004
  .tm_clone_table
-                0x20004220        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x20004210        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x20004220        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
+                0x20004210        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20004220        0x0 load address 0x1000f014
- .igot.plt      0x20004220        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x20004210        0x0 load address 0x1000f004
+ .igot.plt      0x20004210        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x20004220        0x0 load address 0x1000f014
-                0x20004220                        . = ALIGN (0x4)
+.tdata          0x20004210        0x0 load address 0x1000f004
+                0x20004210                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
-                0x20004220                        __tdata_end = .
-                0x20004220                        PROVIDE (__data_end__ = .)
+                0x20004210                        __tdata_end = .
+                0x20004210                        PROVIDE (__data_end__ = .)
                 0x1000aeb4                        __etext = LOADADDR (.data)
 
-.tbss           0x20004220        0x0 load address 0x1000f014
-                0x20004220                        . = ALIGN (0x4)
-                0x20004220                        __bss_start__ = .
-                0x20004220                        __tls_base = .
+.tbss           0x20004210        0x0 load address 0x1000f004
+                0x20004210                        . = ALIGN (0x4)
+                0x20004210                        __bss_start__ = .
+                0x20004210                        __tls_base = .
  *(.tbss .tbss.* .gnu.linkonce.tb.*)
  *(.tcommon)
-                0x20004220                        __tls_end = .
+                0x20004210                        __tls_end = .
 
-.bss            0x20004220     0x2e84 load address 0x1000f014
-                0x20004220                        . = ALIGN (0x4)
-                0x20004220                        __tbss_end = .
+.bss            0x20004210     0x2e84 load address 0x1000f004
+                0x20004210                        . = ALIGN (0x4)
+                0x20004210                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss._hidh_itf
-                0x20004220       0x38 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x20004210       0x38 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
  .bss.default_alarm_pool_entries
-                0x20004258      0x180 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
- .bss.sd_table  0x200043d8      0x100 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x200043d8                sd_table
- .bss.sof_rt    0x200044d8       0x18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20004248      0x180 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+ .bss.sd_table  0x200043c8      0x100 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x200043c8                sd_table
+ .bss.sof_rt    0x200044c8       0x18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .bss.__lock___malloc_recursive_mutex
-                0x200044f0        0x1 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x200044f0                __lock___malloc_recursive_mutex
- *fill*         0x200044f1        0x3 
+                0x200044e0        0x1 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x200044e0                __lock___malloc_recursive_mutex
+ *fill*         0x200044e1        0x3 
  .bss.__malloc_current_mallinfo
-                0x200044f4       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x200044f4                __malloc_current_mallinfo
+                0x200044e4       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x200044e4                __malloc_current_mallinfo
  .bss.__malloc_max_sbrked_mem
-                0x2000451c        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x2000451c                __malloc_max_sbrked_mem
+                0x2000450c        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x2000450c                __malloc_max_sbrked_mem
  .bss.__malloc_max_total_mem
-                0x20004520        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x20004520                __malloc_max_total_mem
+                0x20004510        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x20004510                __malloc_max_total_mem
  .bss.__malloc_top_pad
-                0x20004524        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x20004524                __malloc_top_pad
- .bss.__sf      0x20004528      0x138 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
-                0x20004528                __sf
+                0x20004514        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x20004514                __malloc_top_pad
+ .bss.__sf      0x20004518      0x138 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+                0x20004518                __sf
  .bss._alarm_pool
-                0x20004660        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20004650        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .bss._app_driver
-                0x20004664        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20004654        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._app_driver
-                0x20004668        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20004658        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._cdcd_epbuf
-                0x2000466c       0x80 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x2000465c       0x80 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .bss._cdcd_fifo_cfg
-                0x200046ec        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- *fill*         0x200046ed        0x3 
+                0x200046dc        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ *fill*         0x200046dd        0x3 
  .bss._cdcd_itf
-                0x200046f0      0x248 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x200046e0      0x248 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .bss._ctrl_epbuf
-                0x20004938       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x20004928       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._ctrl_xfer
-                0x20004978       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x20004968       0x14 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._ctrl_xfer
-                0x2000498c       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x2000497c       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._desc_str
-                0x2000499c       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
- .bss._dev0     0x200049dc        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x2000498c       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
+ .bss._dev0     0x200049cc        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._hidd_epbuf
-                0x200049e0       0x30 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x200049d0       0x30 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .bss._hidd_itf
-                0x20004a10        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x20004a00        0xc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .bss._hidh_epbuf
-                0x20004a1c      0x200 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x20004a0c      0x200 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
  .bss._hub_buffer
-                0x20004c1c        0x9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
- *fill*         0x20004c25        0x3 
+                0x20004c0c        0x9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+ *fill*         0x20004c15        0x3 
  .bss._ubsd_mutexdef
-                0x20004c28        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20004c18        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_dev
-                0x20004c30       0x54 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20004c20       0x54 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_mutex
-                0x20004c84        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x20004c88        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20004c74        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x20004c78        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_qdef_buf
-                0x20004c8c       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
-                0x20004c8c                _usbd_qdef_buf
+                0x20004c7c       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20004c7c                _usbd_qdef_buf
  .bss._usbh_devices
-                0x20004d4c      0x1ae CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- *fill*         0x20004efa        0x2 
+                0x20004d3c      0x1ae CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ *fill*         0x20004eea        0x2 
  .bss._usbh_epbuf
-                0x20004efc      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20004eec      0x108 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._usbh_mutex
-                0x20005004        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20004ff4        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._usbh_mutexdef
-                0x20005008        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- .bss._usbh_q   0x20005010        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20004ff8        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ .bss._usbh_q   0x20005000        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._usbh_qdef_buf
-                0x20005014       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
-                0x20005014                _usbh_qdef_buf
+                0x20005004       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20005004                _usbh_qdef_buf
  .bss._used_instruction_space
-                0x200050d4        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+                0x200050c4        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
  .bss.ack_encoded
-                0x200050dc        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- *fill*         0x200050e1        0x3 
- .bss.claimed   0x200050e4        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
- .bss.claimed   0x200050e8        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x200050e9        0x3 
- .bss.claimed   0x200050ec        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
- *fill*         0x200050ed        0x3 
+                0x200050cc        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ *fill*         0x200050d1        0x3 
+ .bss.claimed   0x200050d4        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
+ .bss.claimed   0x200050d8        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x200050d9        0x3 
+ .bss.claimed   0x200050dc        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+ *fill*         0x200050dd        0x3 
  .bss.configured_freq
-                0x200050f0       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .bss.drivers   0x20005118        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x200050e0       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .bss.drivers   0x20005108        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.e15_last_sof
-                0x2000511c        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x2000511c                e15_last_sof
- .bss.errno     0x20005120        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
-                0x20005120                errno
- .bss.filter    0x20005124        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
+                0x2000510c        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x2000510c                e15_last_sof
+ .bss.errno     0x20005110        0x4 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+                0x20005110                errno
+ .bss.filter    0x20005114        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.heap_end.0
-                0x20005128        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .bss.hub_data  0x2000512c       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+                0x20005118        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .bss.hub_data  0x2000511c       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
  .bss.hw_endpoints
-                0x2000513c      0x400 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x2000512c      0x400 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.keepalive_encoded
-                0x2000553c        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- *fill*         0x2000553d        0x3 
+                0x2000552c        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ *fill*         0x2000552d        0x3 
  .bss.lazy_vsnprintf
-                0x20005540        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
+                0x20005530        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
  .bss.lockout_victim_initialized
-                0x20005544        0x2 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
- *fill*         0x20005546        0x2 
+                0x20005534        0x2 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+ *fill*         0x20005536        0x2 
  .bss.nak_encoded
-                0x20005548        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- *fill*         0x2000554d        0x3 
+                0x20005538        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ *fill*         0x2000553d        0x3 
  .bss.next_buffer_ptr
-                0x20005550        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .bss.object.0  0x20005554       0x18 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
- .bss.pio_port  0x2000556c       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x2000556c                pio_port
+                0x20005540        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .bss.object.0  0x20005544       0x18 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .bss.pio_port  0x2000555c       0xdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x2000555c                pio_port
  .bss.pio_usb_device
-                0x20005648      0x130 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20005648                pio_usb_device
+                0x20005638      0x130 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20005638                pio_usb_device
  .bss.pio_usb_ep_pool
-                0x20005778     0x1780 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20005778                pio_usb_ep_pool
+                0x20005768     0x1780 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20005768                pio_usb_ep_pool
  .bss.pio_usb_root_port
-                0x20006ef8       0x60 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
-                0x20006ef8                pio_usb_root_port
- .bss.pools     0x20006f58       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+                0x20006ee8       0x60 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x20006ee8                pio_usb_root_port
+ .bss.pools     0x20006f48       0x10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
  .bss.pre_encoded
-                0x20006f68        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- *fill*         0x20006f6d        0x3 
+                0x20006f58        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ *fill*         0x20006f5d        0x3 
  .bss.prev_report.0
-                0x20006f70        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
+                0x20006f60        0x8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
  .bss.sf_clz_func
-                0x20006f78        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x20006f78                sf_clz_func
- .bss.sf_table  0x20006f7c      0x100 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x20006f7c                sf_table
+                0x20006f68        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x20006f68                sf_clz_func
+ .bss.sf_table  0x20006f6c      0x100 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x20006f6c                sf_table
  .bss.sleep_notifier
-                0x2000707c        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+                0x2000706c        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
  .bss.sof_count
-                0x20007080        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20007070        0x4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .bss.sof_packet_encoded
-                0x20007084        0xb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- *fill*         0x2000708f        0x1 
+                0x20007074        0xb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ *fill*         0x2000707f        0x1 
  .bss.stall_encoded
-                0x20007090        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- *fill*         0x20007095        0x1 
- .bss._claimed  0x20007096        0x2 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+                0x20007080        0x5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ *fill*         0x20007085        0x1 
+ .bss._claimed  0x20007086        0x2 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
  .bss._app_driver_count
-                0x20007098        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x20007088        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss._app_driver_count
-                0x20007099        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x20007089        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss._hidh_default_protocol
-                0x2000709a        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x2000708a        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
  .bss._sof_enable
-                0x2000709b        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x2000708b        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss._usbd_queued_setup
-                0x2000709c        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x2000708c        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .bss.failed_count.0
-                0x2000709d        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x2000708d        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .bss.irq_handler_chain_free_slot_head
-                0x2000709e        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
+                0x2000708e        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
  .bss.sof_packet_encoded_len
-                0x2000709f        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x2000708f        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .bss.timer_active
-                0x200070a0        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x20007090        0x1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  *(COMMON)
-                0x200070a4                        . = ALIGN (0x4)
- *fill*         0x200070a1        0x3 
-                0x200070a4                        __bss_end__ = .
+                0x20007094                        . = ALIGN (0x4)
+ *fill*         0x20007091        0x3 
+                0x20007094                        __bss_end__ = .
 
-.heap           0x200070a4      0x800 load address 0x1000f014
-                0x200070a4                        __end__ = .
-                0x200070a4                        end = __end__
+.heap           0x20007094      0x800 load address 0x1000f004
+                0x20007094                        __end__ = .
+                0x20007094                        end = __end__
  *(.heap*)
- .heap          0x200070a4      0x800 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .heap          0x20007094      0x800 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x1000f014
+.scratch_x      0x20040000        0x0 load address 0x1000f004
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x1000f014                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x1000f004                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x1000f014
+.scratch_y      0x20041000        0x0 load address 0x1000f004
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x1000f014                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x1000f004                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy   0x20040000      0x800
  *(.stack1*)
@@ -4582,9 +4578,9 @@ LOAD C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14
 .rel.dyn        0x20041800        0x0
  .rel.iplt      0x20041800        0x0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.flash_end      0x1000f014        0x0
+.flash_end      0x1000f004        0x0
  *(.embedded_end_block*)
-                0x1000f014                        PROVIDE (__flash_binary_end = .)
+                0x1000f004                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4919,7 +4915,7 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
  .comment       0x00000045       0x46 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
-.debug_info     0x00000000    0x513aa
+.debug_info     0x00000000    0x51348
  .debug_info    0x00000000      0x52d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_info    0x0000052d     0x1bdc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
  .debug_info    0x00002109      0xd89 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
@@ -4959,23 +4955,23 @@ LOAD linker stubs
  .debug_info    0x0001c9a0       0x23 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_info    0x0001c9c3      0xbbe CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_info    0x0001d581     0x1d90 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x0001f311     0x5bf5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- .debug_info    0x00024f06     0x4489 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- .debug_info    0x0002938f      0x3d6 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
- .debug_info    0x00029765     0x1fe0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_info    0x0002b745     0x305c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
- .debug_info    0x0002e7a1      0xa26 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
- .debug_info    0x0002f1c7     0x2b36 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_info    0x00031cfd     0x1196 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_info    0x00032e93     0x49f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_info    0x0003788b      0xb66 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_info    0x000383f1     0x206c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_info    0x0003a45d     0x1f93 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_info    0x0003c3f0     0x246b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
- .debug_info    0x0003e85b     0x283d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_info    0x00041098     0xaf47 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- .debug_info    0x0004bfdf     0x2513 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
- .debug_info    0x0004e4f2     0x2eb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+ .debug_info    0x0001f311     0x5b93 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ .debug_info    0x00024ea4     0x4489 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ .debug_info    0x0002932d      0x3d6 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+ .debug_info    0x00029703     0x1fe0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_info    0x0002b6e3     0x305c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_info    0x0002e73f      0xa26 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_info    0x0002f165     0x2b36 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_info    0x00031c9b     0x1196 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_info    0x00032e31     0x49f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_info    0x00037829      0xb66 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_info    0x0003838f     0x206c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_info    0x0003a3fb     0x1f93 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_info    0x0003c38e     0x246b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+ .debug_info    0x0003e7f9     0x283d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_info    0x00041036     0xaf47 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ .debug_info    0x0004bf7d     0x2513 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+ .debug_info    0x0004e490     0x2eb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
 .debug_abbrev   0x00000000     0xb4eb
  .debug_abbrev  0x00000000      0x2f4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
@@ -5036,7 +5032,7 @@ LOAD linker stubs
  .debug_abbrev  0x0000ae6c      0x67f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
 .debug_loclists
-                0x00000000    0x32201
+                0x00000000    0x321fa
  .debug_loclists
                 0x00000000       0x69 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_loclists
@@ -5096,41 +5092,41 @@ LOAD linker stubs
  .debug_loclists
                 0x00010545      0xf51 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x00011496     0x4351 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x00011496     0x434a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
  .debug_loclists
-                0x000157e7     0x199e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x000157e0     0x199e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .debug_loclists
-                0x00017185      0x22d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x0001717e      0x22d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
  .debug_loclists
-                0x000173b2      0xbe1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+                0x000173ab      0xbe1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_loclists
-                0x00017f93     0x20c3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+                0x00017f8c     0x20c3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
  .debug_loclists
-                0x0001a056      0x315 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+                0x0001a04f      0x315 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
  .debug_loclists
-                0x0001a36b     0x1bd5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0001a364     0x1bd5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_loclists
-                0x0001bf40      0x719 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0001bf39      0x719 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_loclists
-                0x0001c659     0x21ed CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x0001c652     0x21ed CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_loclists
-                0x0001e846      0x45e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0001e83f      0x45e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_loclists
-                0x0001eca4      0xdfb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0001ec9d      0xdfb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_loclists
-                0x0001fa9f     0x1461 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x0001fa98     0x1461 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_loclists
-                0x00020f00     0x1189 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+                0x00020ef9     0x1189 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
  .debug_loclists
-                0x00022089     0x1fdb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00022082     0x1fdb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_loclists
-                0x00024064     0xaac1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x0002405d     0xaac1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .debug_loclists
-                0x0002eb25     0x1131 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+                0x0002eb1e     0x1131 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
  .debug_loclists
-                0x0002fc56     0x25ab CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x0002fc4f     0x25ab CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
-.debug_aranges  0x00000000     0x1c48
+.debug_aranges  0x00000000     0x1c40
  .debug_aranges
                 0x00000000       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_aranges
@@ -5210,42 +5206,42 @@ LOAD linker stubs
  .debug_aranges
                 0x00000e70       0xc8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_aranges
-                0x00000f38       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x00000f38       0xb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
  .debug_aranges
-                0x00000ff8       0xf0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x00000ff0       0xf0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .debug_aranges
-                0x000010e8       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x000010e0       0x28 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
  .debug_aranges
-                0x00001110       0xb0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+                0x00001108       0xb0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_aranges
-                0x000011c0       0xd8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+                0x000011b8       0xd8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
  .debug_aranges
-                0x00001298       0x70 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+                0x00001290       0x70 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
  .debug_aranges
-                0x00001308       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00001300       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_aranges
-                0x000013c8       0x70 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000013c0       0x70 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_aranges
-                0x00001438      0x188 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x00001430      0x188 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_aranges
-                0x000015c0       0x50 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x000015b8       0x50 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_aranges
-                0x00001610       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00001608       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_aranges
-                0x000016d0       0xa8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x000016c8       0xa8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_aranges
-                0x00001778       0xb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+                0x00001770       0xb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
  .debug_aranges
-                0x00001830       0xb0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00001828       0xb0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_aranges
-                0x000018e0      0x1d8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x000018d8      0x1d8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .debug_aranges
-                0x00001ab8       0xa0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+                0x00001ab0       0xa0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
  .debug_aranges
-                0x00001b58       0xf0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x00001b50       0xf0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
 .debug_rnglists
-                0x00000000     0x747c
+                0x00000000     0x7469
  .debug_rnglists
                 0x00000000       0x25 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_rnglists
@@ -5319,41 +5315,41 @@ LOAD linker stubs
  .debug_rnglists
                 0x00002a51      0x2bb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_rnglists
-                0x00002d0c      0xa1b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+                0x00002d0c      0xa08 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
  .debug_rnglists
-                0x00003727      0x636 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+                0x00003714      0x636 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
  .debug_rnglists
-                0x00003d5d       0x2b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+                0x00003d4a       0x2b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
  .debug_rnglists
-                0x00003d88      0x2f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+                0x00003d75      0x2f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
  .debug_rnglists
-                0x00004080      0x4d9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+                0x0000406d      0x4d9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
  .debug_rnglists
-                0x00004559       0xca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+                0x00004546       0xca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
  .debug_rnglists
-                0x00004623      0x425 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00004610      0x425 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .debug_rnglists
-                0x00004a48       0xe8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00004a35       0xe8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .debug_rnglists
-                0x00004b30      0x601 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+                0x00004b1d      0x601 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
  .debug_rnglists
-                0x00005131       0x8e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000511e       0x8e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
  .debug_rnglists
-                0x000051bf      0x1ca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000051ac      0x1ca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .debug_rnglists
-                0x00005389      0x164 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+                0x00005376      0x164 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
  .debug_rnglists
-                0x000054ed      0x267 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+                0x000054da      0x267 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
  .debug_rnglists
-                0x00005754      0x3d3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00005741      0x3d3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
  .debug_rnglists
-                0x00005b27     0x125d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+                0x00005b14     0x125d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
  .debug_rnglists
-                0x00006d84      0x1dc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+                0x00006d71      0x1dc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
  .debug_rnglists
-                0x00006f60      0x51c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+                0x00006f4d      0x51c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
-.debug_line     0x00000000    0x36bb2
+.debug_line     0x00000000    0x36bf8
  .debug_line    0x00000000      0x488 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_line    0x00000488     0x122a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
  .debug_line    0x000016b2      0x49b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
@@ -5393,84 +5389,84 @@ LOAD linker stubs
  .debug_line    0x00016039       0xa2 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
  .debug_line    0x000160db      0x8df CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_line    0x000169ba     0x14cc CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00017e86     0x4995 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- .debug_line    0x0001c81b     0x2a30 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- .debug_line    0x0001f24b      0x268 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
- .debug_line    0x0001f4b3     0x158d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_line    0x00020a40     0x1d8d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
- .debug_line    0x000227cd      0x749 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
- .debug_line    0x00022f16     0x1ef3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00024e09      0xd18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x00025b21     0x28a4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x000283c5      0x6e8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00028aad     0x105b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00029b08      0xd5d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_line    0x0002a865     0x142b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x0002bc90     0x1a5f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_line    0x0002d6ef     0x68cb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- .debug_line    0x00033fba      0xf3e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
- .debug_line    0x00034ef8     0x1cba CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+ .debug_line    0x00017e86     0x49db CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ .debug_line    0x0001c861     0x2a30 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ .debug_line    0x0001f291      0x268 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+ .debug_line    0x0001f4f9     0x158d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_line    0x00020a86     0x1d8d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_line    0x00022813      0x749 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_line    0x00022f5c     0x1ef3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00024e4f      0xd18 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x00025b67     0x28a4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x0002840b      0x6e8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00028af3     0x105b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00029b4e      0xd5d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_line    0x0002a8ab     0x142b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x0002bcd6     0x1a5f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_line    0x0002d735     0x68cb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ .debug_line    0x00034000      0xf3e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+ .debug_line    0x00034f3e     0x1cba CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
-.debug_str      0x00000000     0xd6ea
- .debug_str     0x00000000     0xd6ea CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
+.debug_str      0x00000000     0xd6bb
+ .debug_str     0x00000000     0xd6bb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
                                 0x3c8 (size before relaxing)
- .debug_str     0x0000d6ea      0xf46 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
- .debug_str     0x0000d6ea     0x24e7 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
- .debug_str     0x0000d6ea     0x13da CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c.obj
- .debug_str     0x0000d6ea      0xcc7 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_str     0x0000d6ea      0x1f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.obj
- .debug_str     0x0000d6ea      0x1ff CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_str     0x0000d6ea      0x382 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj
- .debug_str     0x0000d6ea      0x32b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
- .debug_str     0x0000d6ea      0x23e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_str     0x0000d6ea      0xaba CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
- .debug_str     0x0000d6ea      0x20a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.obj
- .debug_str     0x0000d6ea      0x7e5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.obj
- .debug_str     0x0000d6ea      0x2ca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.obj
- .debug_str     0x0000d6ea     0x11e1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
- .debug_str     0x0000d6ea      0xa2d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
- .debug_str     0x0000d6ea      0xa10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_str     0x0000d6ea      0x45d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj
- .debug_str     0x0000d6ea      0x28c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_str     0x0000d6ea      0x351 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_str     0x0000d6ea      0x241 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_str     0x0000d6ea      0x291 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_str     0x0000d6ea      0x7c4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_str     0x0000d6ea      0x499 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_str     0x0000d6ea       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_str     0x0000d6ea       0x97 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_str     0x0000d6ea       0x99 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_str     0x0000d6ea      0x2d9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_str     0x0000d6ea       0x9f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_str     0x0000d6ea       0x9d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_str     0x0000d6ea       0x97 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_str     0x0000d6ea      0x29e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_str     0x0000d6ea      0x45b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_str     0x0000d6ea       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_str     0x0000d6ea      0x400 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_str     0x0000d6ea      0x4e3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
- .debug_str     0x0000d6ea       0x88 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_str     0x0000d6ea      0x77a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_str     0x0000d6ea      0xdb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_str     0x0000d6ea     0x272a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- .debug_str     0x0000d6ea     0x1fb3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- .debug_str     0x0000d6ea      0x60a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
- .debug_str     0x0000d6ea      0xd19 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_str     0x0000d6ea     0x10db CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
- .debug_str     0x0000d6ea      0x5de CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
- .debug_str     0x0000d6ea     0x1241 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_str     0x0000d6ea      0xa4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_str     0x0000d6ea     0x1b7d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_str     0x0000d6ea      0x6db CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_str     0x0000d6ea     0x176a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_str     0x0000d6ea     0x10be CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_str     0x0000d6ea     0x100f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
- .debug_str     0x0000d6ea      0x628 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_str     0x0000d6ea     0x23c5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- .debug_str     0x0000d6ea     0x1300 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
- .debug_str     0x0000d6ea     0x1673 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+ .debug_str     0x0000d6bb      0xf46 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
+ .debug_str     0x0000d6bb     0x24e7 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
+ .debug_str     0x0000d6bb     0x13da CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/pio_usb/hcd_pio_usb.c.obj
+ .debug_str     0x0000d6bb      0xcc7 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_str     0x0000d6bb      0x1f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2040/pico_platform/platform.c.obj
+ .debug_str     0x0000d6bb      0x1ff CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_str     0x0000d6bb      0x382 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/hardware_claim/claim.c.obj
+ .debug_str     0x0000d6bb      0x32b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_str     0x0000d6bb      0x23e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_str     0x0000d6bb      0xaba CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_str     0x0000d6bb      0x20a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/lock_core.c.obj
+ .debug_str     0x0000d6bb      0x7e5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/mutex.c.obj
+ .debug_str     0x0000d6bb      0x2ca CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_sync/critical_section.c.obj
+ .debug_str     0x0000d6bb     0x11e1 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_time/time.c.obj
+ .debug_str     0x0000d6bb      0xa2d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_str     0x0000d6bb      0xa10 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_str     0x0000d6bb      0x45d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_str     0x0000d6bb      0x28c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_str     0x0000d6bb      0x351 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_str     0x0000d6bb      0x241 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_str     0x0000d6bb      0x291 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_str     0x0000d6bb      0x7c4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_str     0x0000d6bb      0x499 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_str     0x0000d6bb       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_str     0x0000d6bb       0x97 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_str     0x0000d6bb       0x99 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_str     0x0000d6bb      0x2d9 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_str     0x0000d6bb       0x9f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_str     0x0000d6bb       0x9d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_str     0x0000d6bb       0x97 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_str     0x0000d6bb      0x29e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_str     0x0000d6bb      0x45b CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_str     0x0000d6bb       0x94 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_str     0x0000d6bb      0x400 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_str     0x0000d6bb      0x4e3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
+ .debug_str     0x0000d6bb       0x88 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_str     0x0000d6bb      0x77a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_str     0x0000d6bb      0xdb8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_str     0x0000d6bb     0x26fb CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ .debug_str     0x0000d6bb     0x1fb3 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ .debug_str     0x0000d6bb      0x60a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+ .debug_str     0x0000d6bb      0xd19 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_str     0x0000d6bb     0x10db CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_str     0x0000d6bb      0x5de CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_str     0x0000d6bb     0x1241 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_str     0x0000d6bb      0xa4e CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_str     0x0000d6bb     0x1b7d CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_str     0x0000d6bb      0x6db CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_str     0x0000d6bb     0x176a CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_str     0x0000d6bb     0x10be CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_str     0x0000d6bb     0x100f CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+ .debug_str     0x0000d6bb      0x628 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_str     0x0000d6bb     0x23c5 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ .debug_str     0x0000d6bb     0x1300 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+ .debug_str     0x0000d6bb     0x1673 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
 
-.debug_frame    0x00000000     0x4b8c
+.debug_frame    0x00000000     0x4b64
  .debug_frame   0x00000000       0x40 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_device.c.obj
  .debug_frame   0x00000040       0xa0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/main_host.c.obj
  .debug_frame   0x000000e0       0x8c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/usb_descriptors.c.obj
@@ -5501,36 +5497,36 @@ LOAD linker stubs
  .debug_frame   0x00001770      0x1f0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_printf/printf.c.obj
  .debug_frame   0x00001960      0x184 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_frame   0x00001ae4      0x2a8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x00001d8c      0x2f8 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
- .debug_frame   0x00002084      0x330 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
- .debug_frame   0x000023b4       0x4c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
- .debug_frame   0x00002400      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
- .debug_frame   0x00002620      0x344 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
- .debug_frame   0x00002964      0x134 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
- .debug_frame   0x00002a98      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_frame   0x00002cb8      0x124 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_frame   0x00002ddc      0x414 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
- .debug_frame   0x000031f0       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_frame   0x000032b0      0x238 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_frame   0x000034e8      0x1e4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
- .debug_frame   0x000036cc      0x244 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
- .debug_frame   0x00003910      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
- .debug_frame   0x00003b30      0x708 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
- .debug_frame   0x00004238      0x218 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
- .debug_frame   0x00004450      0x320 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
- .debug_frame   0x00004770       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
- .debug_frame   0x00004798       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-callocr.o)
- .debug_frame   0x000047c4       0x40 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
- .debug_frame   0x00004804       0x3c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
- .debug_frame   0x00004840       0x40 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
- .debug_frame   0x00004880       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
- .debug_frame   0x000048ac       0x20 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
- .debug_frame   0x000048cc       0xb0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
- .debug_frame   0x0000497c       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
- .debug_frame   0x000049a4       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
- .debug_frame   0x000049cc       0x5c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
- .debug_frame   0x00004a28      0x138 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
- .debug_frame   0x00004b60       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
+ .debug_frame   0x00001d8c      0x2d0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb.c.obj
+ .debug_frame   0x0000205c      0x330 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/pio_usb_host.c.obj
+ .debug_frame   0x0000238c       0x4c CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/Pico-PIO-USB/src/usb_crc.c.obj
+ .debug_frame   0x000023d8      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/pico_multicore/multicore.c.obj
+ .debug_frame   0x000025f8      0x344 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_frame   0x0000293c      0x134 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_frame   0x00002a70      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_frame   0x00002c90      0x124 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_frame   0x00002db4      0x414 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd.c.obj
+ .debug_frame   0x000031c8       0xc0 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_frame   0x00003288      0x238 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_frame   0x000034c0      0x1e4 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_device.c.obj
+ .debug_frame   0x000036a4      0x244 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/tusb.c.obj
+ .debug_frame   0x000038e8      0x220 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/common/tusb_fifo.c.obj
+ .debug_frame   0x00003b08      0x708 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/usbh.c.obj
+ .debug_frame   0x00004210      0x218 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/host/hub.c.obj
+ .debug_frame   0x00004428      0x320 CMakeFiles/USB_DEVICE_AND_KEYBOARD.dir/C_/Users/ASUS/.pico-sdk/sdk/2.2.0/lib/tinyusb/src/class/hid/hid_host.c.obj
+ .debug_frame   0x00004748       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
+ .debug_frame   0x00004770       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-callocr.o)
+ .debug_frame   0x0000479c       0x40 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-malloc.o)
+ .debug_frame   0x000047dc       0x3c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+ .debug_frame   0x00004818       0x40 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+ .debug_frame   0x00004858       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+ .debug_frame   0x00004884       0x20 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+ .debug_frame   0x000048a4       0xb0 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+ .debug_frame   0x00004954       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+ .debug_frame   0x0000497c       0x28 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+ .debug_frame   0x000049a4       0x5c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+ .debug_frame   0x00004a00      0x138 C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-findfp.o)
+ .debug_frame   0x00004b38       0x2c C:/Users/ASUS/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-reent.o)
 
 .debug_line_str
                 0x00000000      0x347
