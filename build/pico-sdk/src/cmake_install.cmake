@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.1.1/src
+# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.2.0/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -264,6 +264,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_common/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_compiler/cmake_install.cmake")
 endif()
 
@@ -409,17 +414,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_lwip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_arch/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -455,6 +460,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_fix/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_status_led/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.1.1/docs
+# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.2.0/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

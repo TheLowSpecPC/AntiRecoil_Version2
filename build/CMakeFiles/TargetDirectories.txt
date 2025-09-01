@@ -100,6 +100,8 @@ C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/hardware_xosc/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/boot_bootrom_headers/CMakeFiles/rebuild_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_common/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_common/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_compiler/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_compiler/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_platform_sections/CMakeFiles/edit_cache.dir
@@ -161,14 +163,14 @@ C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/CMakeFiles/rebuild_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_lwip/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_lwip/tools/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_lwip/tools/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_cyw43_arch/CMakeFiles/rebuild_cache.dir
-C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/CMakeFiles/edit_cache.dir
-C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_mbedtls/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_time_adapter/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_time_adapter/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_crt0/CMakeFiles/edit_cache.dir
@@ -185,6 +187,9 @@ C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_fix/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/CMakeFiles/rebuild_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pico_status_led_ws2812_pio_h.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/edit_cache.dir
+C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_runtime_init/CMakeFiles/edit_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_runtime_init/CMakeFiles/rebuild_cache.dir
 C:/Users/ASUS/PycharmProjects/AntiRecoil_Version2/build/pico-sdk/src/rp2_common/pico_runtime/CMakeFiles/edit_cache.dir

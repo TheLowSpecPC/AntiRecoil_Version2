@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.1.1/src/common/pico_divider_headers
+# Install script for directory: C:/Users/ASUS/.pico-sdk/sdk/2.2.0/src/common/pico_divider_headers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
